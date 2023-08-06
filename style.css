@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  display: flex;
+  align-items: center;
+}
+/*-------navbar-------*/
+/*-------hero-section-------*/
+#hero-section {
+  padding: 40px 0px;
+  margin-bottom: 40px;
+}
+.hero-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.content-box1 {
+  padding-top: 30px;
+}
+.heading {
+  padding-right: 30px;
+  font-size: 50px;
+  font-weight: 800;
+}
+.description {
+  margin-bottom: 40px;
+}
+.button {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  background-color: hsl(5, 85%, 63%);
+  text-decoration: none;
+  border: solid 2px hsl(5, 85%, 63%);
+}
+.button:hover {
+  color: hsl(5, 85%, 63%);
+  background-color: white;
+}
+.box-2 {
+  display: flex;
+  justify-content: center;
+}
+.content-box2 {
+  width: 90%;
+  padding: 20px !important;
+  background-color: hsl(240, 100%, 5%);
+}
+.content-box2 h2 {
+  font-weight: 700;
+  color: hsl(35, 77%, 62%);
+}
+.p-box {
+  margin-top: 40px;
+}
+.p-box h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.p-box p {
+  font-size: 13px;
+  color: hsl(233, 8%, 79%);
+}
+.p-box hr {
+  height: 5px;
+  color: hsl(233, 8%, 79%);
+}
+/*----about-section-----*/
+#about-section {
+  margin-bottom: 50px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.box-image img {
+  height: 200px;
+  width: 180px;
+  object-fit: cover;
+  border-radius: 10px 0px 0px 10px;
+}
+.box-content {
+  padding-left: 20px;
+}
+.number {
+  font-size: 30px;
+  font-weight: 600;
+  color: hsl(236, 13%, 42%);
+  padding: 0px;
+}
+.box-heading {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+}
+.box-des {
+  font-size: 13px;
+}
