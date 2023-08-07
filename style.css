@@ -7,6 +7,9 @@
   align-items: center;
 }
 /*-------navbar-------*/
+.navbar-collapse {
+  justify-content: flex-end;
+}
 /*-------hero-section-------*/
 #hero-section {
   padding: 40px 0px;
@@ -104,4 +107,8 @@
 }
 .box-des {
   font-size: 13px;
+}
+/*-----footer-----*/
+.attribution {
+  margin-bottom: 10px;
 }
